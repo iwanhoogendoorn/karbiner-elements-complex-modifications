@@ -1,0 +1,26 @@
+{
+    "description": "Razer Naga v2 Hyper - 9 to Shift+Option+9",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [
+                        {
+                            "product_id": 181,
+                            "vendor_id": 1678
+                        }
+                    ],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "9" },
+            "to": [
+                {
+                    "key_code": "w",
+                    "modifiers": ["left_shift", "left_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
